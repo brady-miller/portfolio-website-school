@@ -1,0 +1,15 @@
+{
+  "name": "gigabit",
+  "version": "0.0.0",
+  "description": "A fast, innovative bot using new technologies, along with a bot dashboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MrSlimeDud",
+  "license": "ISC",
+  "dependencies": {
+    "express-sanitizer": "^1.0.4",
+    "method-override": "^3.0.0"
+  }
+}
