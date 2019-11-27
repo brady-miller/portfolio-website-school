@@ -89,11 +89,13 @@ img {
 .button-accent {
     color: #00ff6c;
     border-color: #00ff6c;
+    border-radius: 100px;
 }
 
 .button-accent:hover, .button-accent:focus {
     background: #00ff6c;
     color: #232323;
+    cursor: crosshair;
 }
 
 .button-dark {
@@ -220,7 +222,6 @@ nav a:focus {
 .home-hero {
     background-image: url("../img/hero-bg.jpg"); 
     background-size: cover;
-    background-position: center;
     background-attachment: scroll;
     padding: 10em 0;
     color: #FFF;
