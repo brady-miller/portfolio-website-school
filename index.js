@@ -13,10 +13,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 // Routes
 app.get("/", function(req, res) {
+   console.log("new request")
    res.render("home"); 
 });
 
 // Starting the server
-app.listen(3000, function() {
+app.listen(80, function() {
     console.log("Express server had started!")
 });
